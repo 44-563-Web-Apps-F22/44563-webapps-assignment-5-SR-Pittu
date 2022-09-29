@@ -13,6 +13,27 @@
     
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light" style="font-family; font-size: larger; font-size: larger;" >
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#InsectNavbarContent" aria-controls="InsectNavbarContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="InsectNavbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="insects.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <h1  style ="text-align: center; color:darkmagenta; background-color: floralwhite;">Insects by SobhaReddy Pittu</h1>
 <div class="container">
 <div class="row">
@@ -37,6 +58,178 @@
     and after that the letters row become vertical. This is because, the items - letters and the insect names,  are intialy stacked in a horizontal row, but can be stacked vertically
     responsively to the width of the browser(as we are reducing it).</i>
 </p>
+<div class="container">
+  <img class="img-fluid" src="paperwasp.jpg" alt="PaperWasp" height="400" width="400" >
+  <img class="img-fluid" src="Trichopetra.jpeg" alt="Trichoptera" width="400">
+  <img class="img-fluid" src="Thysanura.jpg" alt="Thysanura" height="400" width="400">
+</div>
+<br><br>
+    <div class="container">
+        <img class="img-thumbnail" src="paperwasp.jpg" alt="PaperWasp" width="400">
+        <img class="img-thumbnail" src="Trichopetra.jpeg" alt="Trichoptera" width="400">
+        <img class="img-thumbnail" src="Thysanura.jpg" alt="Thysanura" width="450">
+    </div>
+  <br>
+  <br>
+  <div class="container">
+    <table class="table table-bordered border-secondary table-info table-striped table-hover table-responsive"
+    style="text-align: center;">
+    <caption style="color:darkred">Table in Bootstrap with Letter, Insects, City and River</caption>
+        <thead class="table-danger">
+            <tr style="color:brown">
+                <th scope="col">Letter</th>
+                <th scope="col">Insect</th>
+                <th scope="col">City</th>
+                <th scope="col">River</th>
+            </tr>
+        </thead>
+        <tbody class ="table-success">
+            <tr>
+                <td>P</td>
+                <td>Paper Wasp</td>
+                <td>Pittsburgh</td>
+                <td>Platte River</td>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>Isoptera</td>
+                <td>Ionia</td>
+                <td>Iroquois River</td>
+            </tr>
+            <tr>
+                <td>T</td>
+                <td>Trichoptera</td>
+                <td>Trujillo Alto</td>
+                <td>Thunder Bay  River</td>
+            </tr>
+            <tr>
+                <td>T</td>
+                <td>Thysanura</td>
+                <td>Texarkana</td>
+                <td>Twisp River</td>
+            </tr>
+            <tr>
+                <td>U</td>
+                <td>Unlined Gaint Chafer Beetle</td>
+                <td>Ukiah	</td>
+                <td>Utukok River</td>
+            </tr>
+            <tr>
+                <td>S</td>
+                <td>Strepsiptera</td>
+                <td>Santa Monica</td>
+                <td>Sheenjek River</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>  
+<div class="container btn-toolbar">
+  <div class="btn-group" role="group" aria-label="Imaged Insects">
+      <button class="btn btn-md btn-success btn-outline-dark" type="button">P</button>
+      <button class="btn btn-md btn-success btn-outline-dark" type="button">I</button>
+      <button class="btn btn-md btn-success btn-outline-dark" type="button">T</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Lettered Insects">
+      <button class="btn btn-md btn-warning btn-outline-dark" type="button">T</button>
+      <button class="btn btn-md btn-warning btn-outline-dark" type="button">U</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Remained Lettered Insects">
+      <button class="btn btn-md btn-danger btn-outline-dark" type="button">S</button>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+          Menu
+      </button>
+      <div class="dropdown-menu">
+          <a class="dropdown-item" href="basic.html">Link to Basic Page</a>
+          <a class="dropdown-item" href="advanced.html">Link to Advanced Page</a>
+      </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <form action="">
+      <div class="form-group">
+          <label for="InsectEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="InsectEmail" 
+          aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+          <label for="InsectInput" class="form-label">Insect</label>
+          <input type="text" class="form-control" id="InsectInput" 
+          placeholder="Enter Your Insect">
+      </div>
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="InsectCheck">
+          <label class="form-check-label" for="InsectCheck">Sign up for newsletter?</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md">
+          <div class="card" style="width: 25rem;">
+              <img src="paperwasp.jpg" class="card-img-top" alt="PaperWasp">
+              <div class="card-body">
+                  <h5 class="card-title">Paper Wasp</h5>
+                  <p class="card-text">
+                    Paper wasps are vespid wasps that gather fibers from dead wood and plant stems, 
+                    which they mix with saliva, 
+                    and use to construct nests made of gray or brown papery material.
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Paper_wasp" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 25rem;">
+              <img src="Trichopetra.jpeg" class="card-img-top" alt="Trichopetra">
+              <div class="card-body">
+                  <h5 class="card-title">Trichopetra</h5>
+                  <p class="card-text">
+                    Trichoptera are a group of insects with aquatic larvae 
+                    and terrestrial adults. There are 14,500 
+                    described species, most of which can be divided into the suborders 
+                    Integripalpia and Annulipalpia.They are especially noticeable at night 
+                    when they swarm around lights.
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Caddisfly" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 25rem;">
+              <img src="Thysanura.jpg" class="card-img-top" alt="Thysanura">
+              <div class="card-body">
+                  <h5 class="card-title">Thysanura</h5>
+                  <p class="card-text">
+                    Thysanura is the now deprecated name of what was, 
+                    for over a century, recognised as an order in the class Insecta.
+                    Thysanura are primitive but well-adapted to survive in domestic 
+                    environments such as basements and attics. 
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Thysanura" class="btn btn-primary">
+                      Read More
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<br>
 
 </body>
 </html>
